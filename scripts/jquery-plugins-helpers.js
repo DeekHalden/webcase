@@ -30,7 +30,7 @@ jQuery(function() {
     $(document).on('click', 'a', function(event) {
         event.preventDefault();
         
-        if($(this).parents('#accordion').length) {
+        if($(this).parents('#accordion').length || !$(this).attr('href')) {
             return;
         }else {
             $('html, body').animate({

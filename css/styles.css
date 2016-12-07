@@ -5793,49 +5793,6 @@ body {
 
 .navbar-default {
   z-index: 2; }
-  .navbar-default .navbar-nav .navbar-brand {
-    margin-top: -1px;
-    text-align: center; }
-    .navbar-default .navbar-nav .navbar-brand .logo {
-      float: left;
-      margin: 0; }
-  .navbar-default .navbar-nav .vertical-line {
-    position: relative; }
-    .navbar-default .navbar-nav .vertical-line:before {
-      content: '';
-      position: absolute;
-      top: -3px;
-      left: 0;
-      width: 1px;
-      height: 6vh;
-      background-color: rgba(85, 106, 141, 0.55); }
-    .navbar-default .navbar-nav .vertical-line span {
-      padding-left: 20px;
-      width: 100%;
-      color: #b5c2d6;
-      display: -ms-flexbox;
-      display: flex;
-      line-height: 16px;
-      font-weight: 600;
-      font-size: 14px; }
-  .navbar-default .navbar-nav li {
-    text-transform: uppercase;
-    font-size: 1.5em;
-    font-weight: 400; }
-    .navbar-default .navbar-nav li .navbar-brand {
-      display: inline; }
-      .navbar-default .navbar-nav li .navbar-brand .logo-text {
-        display: inline; }
-    .navbar-default .navbar-nav li a {
-      color: #ffffff;
-      font-weight: 600;
-      padding: 0;
-      margin: 14px;
-      transition: .4s ease all; }
-      .navbar-default .navbar-nav li a:hover {
-        color: rgba(255, 255, 255, 0.7); }
-      .navbar-default .navbar-nav li a:visited {
-        color: #fff; }
   .navbar-default .navbar-nav .phone-wrapper {
     position: relative;
     padding-left: 3em;
@@ -5895,75 +5852,75 @@ body {
       vertical-align: inherit;
       margin: 0 42px 0 14px; }
 
-div.consultation {
+.consultation {
   font-family: Montserrat Light;
   height: 307px;
   position: relative;
   background-color: #ff7101; }
-  div.consultation img.lady {
+  .consultation img.lady {
     height: 370px;
     position: absolute;
     top: -63px; }
-  div.consultation .text-wrapper {
+  .consultation .text-wrapper {
     padding-top: 70px; }
-    div.consultation .text-wrapper p {
+    .consultation .text-wrapper p {
       margin: 0;
       font-size: 21px;
       line-height: 30px;
       text-transform: uppercase;
       color: #fff;
       font-weight: lighter; }
-  div.consultation form {
+  .consultation form {
     padding-top: 52px; }
-    div.consultation form .form-group {
+    .consultation form .form-group {
       position: inherit;
       margin-right: 20px; }
-      div.consultation form .form-group .form-item {
+      .consultation form .form-group .form-item {
         width: 306px; }
 
-div.services h1 {
+.services h1 {
   padding: 110px 0 79px;
   font-size: 33px;
   color: #1c3051; }
 
-div.services .wrapper {
+.services .wrapper {
   font-family: Montserrat Light;
   position: relative;
   color: #000;
   font-size: 27px;
   text-transform: uppercase; }
-  div.services .wrapper .local, div.services .wrapper .long_distance {
+  .services .wrapper .local, .services .wrapper .long_distance {
     word-wrap: normal;
     color: #1c3051;
     padding: 0 12px;
     position: absolute;
     top: -11rem;
     background-color: #fff; }
-  div.services .wrapper .local {
+  .services .wrapper .local {
     left: 35%; }
-  div.services .wrapper .long_distance {
+  .services .wrapper .long_distance {
     left: 20%; }
-  div.services .wrapper .images-container {
+  .services .wrapper .images-container {
     padding: 99px 0 116px 0; }
-    div.services .wrapper .images-container .local-container {
+    .services .wrapper .images-container .local-container {
       padding-right: 0;
       padding-left: 24px; }
-    div.services .wrapper .images-container .long_distance-container {
+    .services .wrapper .images-container .long_distance-container {
       padding-right: 24px;
       padding-left: 0; }
-    div.services .wrapper .images-container .local-container, div.services .wrapper .images-container .long_distance-container {
+    .services .wrapper .images-container .local-container, .services .wrapper .images-container .long_distance-container {
       display: -ms-flexbox;
       display: flex;
       -ms-flex-wrap: nowrap;
       flex-wrap: nowrap; }
-      div.services .wrapper .images-container .local-container div, div.services .wrapper .images-container .long_distance-container div {
+      .services .wrapper .images-container .local-container div, .services .wrapper .images-container .long_distance-container div {
         margin: 0 auto; }
-        div.services .wrapper .images-container .local-container div img, div.services .wrapper .images-container .long_distance-container div img {
+        .services .wrapper .images-container .local-container div img, .services .wrapper .images-container .long_distance-container div img {
           padding: 0 12px; }
-        div.services .wrapper .images-container .local-container div p, div.services .wrapper .images-container .long_distance-container div p {
+        .services .wrapper .images-container .local-container div p, .services .wrapper .images-container .long_distance-container div p {
           font-size: 14px;
           text-align: center; }
-    div.services .wrapper .images-container:before {
+    .services .wrapper .images-container:before {
       content: "";
       position: absolute;
       z-index: -1;
@@ -5973,7 +5930,7 @@ div.services .wrapper {
       bottom: 1px;
       border: 1px solid #ff7101; }
 
-div.couriers {
+.couriers {
   font-family: Montserrat Light;
   height: 787px;
   margin-top: 119px;
@@ -5981,64 +5938,64 @@ div.couriers {
   background: url(../images/couriers.png) no-repeat;
   background-size: cover;
   color: #fff; }
-  div.couriers .review {
+  .couriers .review {
     padding-left: 0;
     padding-right: 44px; }
-    div.couriers .review h1 {
+    .couriers .review h1 {
       font-size: 24px; }
-    div.couriers .review p {
+    .couriers .review p {
       font-size: 16px;
       line-height: 26px;
       text-align: left; }
-  div.couriers .form-wrapper {
+  .couriers .form-wrapper {
     padding: 89px 0;
     top: -102px;
     height: 813px;
     border-top: 13px solid #ff7101;
     border-bottom: 13px solid #ff7101; }
-    div.couriers .form-wrapper h1 {
+    .couriers .form-wrapper h1 {
       font-family: Montserrat;
       font-size: 33px;
       line-height: 33px; }
-    div.couriers .form-wrapper .form-group {
+    .couriers .form-wrapper .form-group {
       position: inherit; }
-      div.couriers .form-wrapper .form-group #email-error {
+      .couriers .form-wrapper .form-group #email-error {
         font-family: Montserrat;
         position: absolute;
         bottom: 0;
         font-size: 15px; }
-    div.couriers .form-wrapper input[type=date]::-webkit-inner-spin-button,
-    div.couriers .form-wrapper input[type=date]::-webkit-outer-spin-button {
+    .couriers .form-wrapper input[type=date]::-webkit-inner-spin-button,
+    .couriers .form-wrapper input[type=date]::-webkit-outer-spin-button {
       -webkit-appearance: none;
       margin: 0; }
-    div.couriers .form-wrapper input[type=number]::-webkit-inner-spin-button,
-    div.couriers .form-wrapper input[type=number]::-webkit-outer-spin-button {
+    .couriers .form-wrapper input[type=number]::-webkit-inner-spin-button,
+    .couriers .form-wrapper input[type=number]::-webkit-outer-spin-button {
       -webkit-appearance: none;
       margin: 0; }
-    div.couriers .form-wrapper .dropdown {
+    .couriers .form-wrapper .dropdown {
       position: relative; }
-      div.couriers .form-wrapper .dropdown .form-item {
+      .couriers .form-wrapper .dropdown .form-item {
         width: 100%;
         height: 66px;
         text-align: left;
         padding-left: 12px;
         padding-top: 17px;
         border: 1px solid #fff; }
-        div.couriers .form-wrapper .dropdown .form-item:hover {
+        .couriers .form-wrapper .dropdown .form-item:hover {
           color: #fff; }
-      div.couriers .form-wrapper .dropdown .caret {
+      .couriers .form-wrapper .dropdown .caret {
         margin-top: 14px;
         position: absolute;
         top: 17px;
         right: 28px; }
-      div.couriers .form-wrapper .dropdown .dropdown-menu {
+      .couriers .form-wrapper .dropdown .dropdown-menu {
         width: 100%;
         background-color: transparent; }
-        div.couriers .form-wrapper .dropdown .dropdown-menu li a {
+        .couriers .form-wrapper .dropdown .dropdown-menu li a {
           color: #fff; }
-          div.couriers .form-wrapper .dropdown .dropdown-menu li a:hover {
+          .couriers .form-wrapper .dropdown .dropdown-menu li a:hover {
             background-color: inherit; }
-    div.couriers .form-wrapper textarea {
+    .couriers .form-wrapper textarea {
       height: 141px;
       width: 100%;
       margin: 15px 0 0;
@@ -6046,36 +6003,36 @@ div.couriers {
       outline: hidden;
       overflow: hidden;
       line-height: 24px; }
-    div.couriers .form-wrapper .wrapper label {
+    .couriers .form-wrapper .wrapper label {
       padding-left: 10px;
       font-size: 14px;
       line-height: 30px; }
-    div.couriers .form-wrapper .wrapper .btn-submit {
+    .couriers .form-wrapper .wrapper .btn-submit {
       width: 100%;
       border-color: transparent;
       color: #fff;
       background-color: #ff7101; }
 
-div.infography h1 {
+.infography h1 {
   font-size: 33px;
   line-height: 33px;
   text-transform: uppercase;
   color: #1c3051; }
 
-div.infography .img-wrapper {
+.infography .img-wrapper {
   padding-top: 95px;
   overflow: hidden;
   text-align: center; }
-  div.infography .img-wrapper .wrap {
+  .infography .img-wrapper .wrap {
     display: inline-block;
     width: auto;
     position: relative;
     background-color: #fff;
     margin: 0 40px 40px; }
-    div.infography .img-wrapper .wrap img {
+    .infography .img-wrapper .wrap img {
       display: block;
       margin: 0 auto; }
-    div.infography .img-wrapper .wrap h1 {
+    .infography .img-wrapper .wrap h1 {
       font-family: Proximanova Extrabold;
       color: #ff7101;
       font-size: 70px;
@@ -6083,20 +6040,20 @@ div.infography .img-wrapper {
       padding: 0 36px;
       background-color: #fff;
       z-index: 5; }
-      div.infography .img-wrapper .wrap h1::before, div.infography .img-wrapper .wrap h1::after {
+      .infography .img-wrapper .wrap h1::before, .infography .img-wrapper .wrap h1::after {
         z-index: -1;
         content: "";
         position: absolute;
         height: 5px;
         border-bottom: 1px solid #ff7101;
         top: 45%; }
-      div.infography .img-wrapper .wrap h1::before {
+      .infography .img-wrapper .wrap h1::before {
         right: 100%;
         width: 400px; }
-      div.infography .img-wrapper .wrap h1::after {
+      .infography .img-wrapper .wrap h1::after {
         left: 100%;
         width: 400px; }
-    div.infography .img-wrapper .wrap p {
+    .infography .img-wrapper .wrap p {
       text-align: center;
       padding-top: 0;
       font-size: 19px;
@@ -6104,26 +6061,26 @@ div.infography .img-wrapper {
       text-transform: uppercase;
       font-family: Montserrat Light; }
 
-div.discount {
+.discount {
   background: url(../images/discount.png) no-repeat;
   background-size: cover;
   text-align: center; }
-  div.discount h1 {
+  .discount h1 {
     font-family: Montserrat Extrabold;
     padding: 105px 0 139px;
     color: #fff;
     text-transform: uppercase;
     font-size: 33px;
     line-height: 40px; }
-  div.discount #countdown {
+  .discount #countdown {
     width: 620px;
     margin: 0 auto;
     padding-bottom: 69px; }
-    div.discount #countdown .flip-clock-label {
+    .discount #countdown .flip-clock-label {
       color: #fff;
       text-transform: uppercase;
       font-size: 16px; }
-  div.discount .btn {
+  .discount .btn {
     background-color: transparent;
     text-transform: uppercase;
     color: #fff;
@@ -6134,17 +6091,17 @@ div.discount {
     padding: 26px 76px;
     transition: .5s linear all;
     margin-bottom: 87px; }
-    div.discount .btn:hover {
+    .discount .btn:hover {
       opacity: .7; }
 
-div.referal {
+.referal {
   height: 919px;
   background-color: transparent; }
-  div.referal h1 {
+  .referal h1 {
     padding-top: 95px;
     text-transform: uppercase;
     color: #1c3051; }
-  div.referal .referal-relations {
+  .referal .referal-relations {
     font-family: Montserrat Light;
     position: relative;
     margin: 0 auto;
@@ -6155,189 +6112,189 @@ div.referal {
     justify-content: space-between;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
-    div.referal .referal-relations .image .image_description {
+    .referal .referal-relations .image .image_description {
       text-transform: uppercase;
       font-size: 14px;
       color: #ff7101; }
-    div.referal .referal-relations .arrow {
+    .referal .referal-relations .arrow {
       padding-top: 120px;
       left: -30px; }
-      div.referal .referal-relations .arrow .arrow_heading {
+      .referal .referal-relations .arrow .arrow_heading {
         text-transform: uppercase;
         color: #1c3051; }
-      div.referal .referal-relations .arrow:nth-of-type(4) {
+      .referal .referal-relations .arrow:nth-of-type(4) {
         padding-top: 105px !important; }
-    div.referal .referal-relations .big-arrow {
+    .referal .referal-relations .big-arrow {
       padding-top: 0;
       position: absolute;
       top: 120px;
       left: 200px; }
-    div.referal .referal-relations .referal_description {
+    .referal .referal-relations .referal_description {
       padding-top: 22px;
       color: #ff7101;
       font-size: 22px; }
 
-div.info {
+.info {
   background: url(../images/company.png) no-repeat;
   background-size: cover; }
-  div.info .info_heading {
+  .info .info_heading {
     color: white;
     font-size: 33px; }
-  div.info .description {
+  .info .description {
     position: relative;
     padding-bottom: 48px; }
-    div.info .description::before, div.info .description::after {
+    .info .description::before, .info .description::after {
       content: '';
       width: 704px;
       position: absolute;
       border: 7px solid #ff7101; }
-    div.info .description::before {
+    .info .description::before {
       top: -80px; }
-    div.info .description::after {
+    .info .description::after {
       bottom: -355px; }
-    div.info .description .image {
+    .info .description .image {
       float: left; }
-      div.info .description .image img {
+      .info .description .image img {
         height: 397px;
         width: 536px;
         padding-right: 59px; }
-    div.info .description .content {
+    .info .description .content {
       font-family: Montserrat Light;
       color: #fff; }
-      div.info .description .content p {
+      .info .description .content p {
         font-size: 16px;
         line-height: 26px; }
-  div.info .ceo-wrapper {
+  .info .ceo-wrapper {
     color: #fff;
     margin-bottom: 63px;
     border: 1px solid #ff7101; }
-    div.info .ceo-wrapper img {
+    .info .ceo-wrapper img {
       padding: 20px 66px 40px 33px; }
-    div.info .ceo-wrapper h1 {
+    .info .ceo-wrapper h1 {
       padding: 22px 0;
       font-size: 18px;
       line-height: 19px; }
-    div.info .ceo-wrapper p {
+    .info .ceo-wrapper p {
       font-size: 16px;
       font-family: Montserrat Light;
       padding-right: 58px;
       padding-bottom: 41px; }
 
-div.faq {
+.faq {
   color: #1c3051; }
-  div.faq h1 {
+  .faq h1 {
     text-transform: uppercase;
     padding: 103px 0 77px; }
-  div.faq .panel-group {
+  .faq .panel-group {
     padding: 0; }
-    div.faq .panel-group .panel {
+    .faq .panel-group .panel {
       padding-bottom: 28px;
       box-shadow: none; }
-      div.faq .panel-group .panel .panel-heading {
+      .faq .panel-group .panel .panel-heading {
         padding-left: 0; }
-        div.faq .panel-group .panel .panel-heading h4 {
+        .faq .panel-group .panel .panel-heading h4 {
           font-size: 14px;
           text-transform: uppercase; }
-      div.faq .panel-group .panel .panel-body {
+      .faq .panel-group .panel .panel-body {
         font-family: Montserrat Light;
         font-size: 14px;
         border-left: 1px solid #1c3051;
         margin-left: 5px; }
-  div.faq .panel-group .panel-heading + .panel-collapse > .panel-body {
+  .faq .panel-group .panel-heading + .panel-collapse > .panel-body {
     border-top: 0; }
 
-div.question {
+.question {
   background: url(../images/question-image.png) no-repeat;
   background-size: cover;
   height: auto; }
-  div.question .row {
+  .question .row {
     color: #fff;
     padding-top: 79px;
     text-transform: uppercase;
     line-height: 30px; }
-    div.question .row h1 {
+    .question .row h1 {
       font-size: 21px;
       font-family: Montserrat; }
-    div.question .row p {
+    .question .row p {
       font-family: Montserrat Light;
       font-size: 14px; }
-    div.question .row form {
+    .question .row form {
       margin-top: 20px;
       font-family: Montserrat; }
-      div.question .row form textarea {
+      .question .row form textarea {
         height: 141px;
         resize: none; }
-      div.question .row form .btn {
+      .question .row form .btn {
         margin-bottom: 71px; }
 
-div.feedback {
+.feedback {
   position: relative; }
-  div.feedback h1 {
+  .feedback h1 {
     padding-top: 90px;
     text-transform: uppercase;
     font-size: 33px;
     color: #1c3051; }
-  div.feedback .carousel {
+  .feedback .carousel {
     width: 100%; }
-    div.feedback .carousel .carousel-inner {
+    .feedback .carousel .carousel-inner {
       height: 340px;
       z-index: 5; }
-      div.feedback .carousel .carousel-inner .testimonial-image {
+      .feedback .carousel .carousel-inner .testimonial-image {
         width: 109px;
         margin: 0 auto;
         display: block; }
-      div.feedback .carousel .carousel-inner .testimonial-wrapper {
+      .feedback .carousel .carousel-inner .testimonial-wrapper {
         top: 18px; }
-        div.feedback .carousel .carousel-inner .testimonial-wrapper .testimonial-author {
+        .feedback .carousel .carousel-inner .testimonial-wrapper .testimonial-author {
           color: #ff7101;
           text-transform: uppercase;
           font-size: 15px;
           padding-left: 16px; }
-        div.feedback .carousel .carousel-inner .testimonial-wrapper p {
+        .feedback .carousel .carousel-inner .testimonial-wrapper p {
           font-size: 13px;
           line-height: 28px;
           color: #1c3051;
           font-family: Montserrat Light;
           background-color: transparent; }
-    div.feedback .carousel .carousel-indicators li {
+    .feedback .carousel .carousel-indicators li {
       margin: 0 8.5px;
       background-color: #ff7101; }
-    div.feedback .carousel .carousel-indicators .active {
+    .feedback .carousel .carousel-indicators .active {
       width: 10px;
       height: 10px;
       background-color: #1c3051; }
-  div.feedback .feedback-image-wrapper {
+  .feedback .feedback-image-wrapper {
     z-index: -1;
     margin-top: -130px;
     background-color: transparent; }
 
-div.map-wrapper {
+.map-wrapper {
   border: 1px solid #1c3051;
   margin: 1px 1px 0;
   padding: 1px; }
-  div.map-wrapper #map {
+  .map-wrapper #map {
     height: 709px; }
-    div.map-wrapper #map .gmnoprint, div.map-wrapper #map .gm-style-cc {
+    .map-wrapper #map .gmnoprint, .map-wrapper #map .gm-style-cc {
       display: none; }
-    div.map-wrapper #map img[src="https://maps.gstatic.com/mapfiles/api-3/images/google4.png"] {
+    .map-wrapper #map img[src="https://maps.gstatic.com/mapfiles/api-3/images/google4.png"] {
       display: none !important; }
 
-div.footer {
+.footer {
   width: auto;
   height: 116px;
   color: #fff;
   background-color: #1c3051;
   line-height: 25px;
   padding-top: 46px; }
-  div.footer .company_name {
+  .footer .company_name {
     text-transform: uppercase;
     font-size: 20px; }
-  div.footer .images-wrapper {
+  .footer .images-wrapper {
     margin-left: 68px; }
-    div.footer .images-wrapper img {
+    .footer .images-wrapper img {
       display: inline;
       padding: 0 11.5px; }
-  div.footer .designed-by {
+  .footer .designed-by {
     font-size: 14px; }
 
 @media screen and (max-width: 1199px) {
@@ -6359,76 +6316,75 @@ div.footer {
   .jumbotron {
     padding-top: 140px !important; }
     .jumbotron h1 {
-      font-size: 5rem;
-      color: #ff7101; }
+      font-size: 5rem; }
     .jumbotron p {
       font-size: 3rem; }
     .jumbotron button {
       text-align: center; }
-  div.consultation {
+  .consultation {
     height: auto; }
-    div.consultation img.lady {
+    .consultation img.lady {
       display: none; }
-    div.consultation .text-wrapper {
+    .consultation .text-wrapper {
       padding: 20px 0; }
-      div.consultation .text-wrapper p {
+      .consultation .text-wrapper p {
         font-size: 2vh;
         text-align: center; }
-    div.consultation form {
+    .consultation form {
       padding-top: 5px; }
-      div.consultation form .form-group .form-control {
+      .consultation form .form-group .form-control {
         width: 100%; }
-  div.services h1 {
+  .services h1 {
     color: #1c3051;
     padding: 20px; }
-  div.services .wrapper .local, div.services .wrapper .long_distance {
+  .services .wrapper .local, .services .wrapper .long_distance {
     font-size: 1.5rem;
     top: -5rem; }
-  div.services .wrapper .images-container {
+  .services .wrapper .images-container {
     padding: 0 0 20px;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     padding-top: 40px; }
-    div.services .wrapper .images-container .local-container, div.services .wrapper .images-container .long_distance-container {
+    .services .wrapper .images-container .local-container, .services .wrapper .images-container .long_distance-container {
       padding: 0; }
-  div.couriers {
+  .couriers {
     height: 799px; }
-    div.couriers .review {
+    .couriers .review {
       padding-left: 15px;
       padding-right: 15px; }
-    div.couriers .form-wrapper {
+    .couriers .form-wrapper {
       height: 825px;
       top: 0;
       margin-top: -102px;
       padding: 50px 15px; }
-      div.couriers .form-wrapper .form-group {
+      .couriers .form-wrapper .form-group {
         padding: 0 5px; }
-      div.couriers .form-wrapper .dropdown-group {
+      .couriers .form-wrapper .dropdown-group {
         padding: 0 5px; }
-      div.couriers .form-wrapper .wrapper .btn {
+      .couriers .form-wrapper .wrapper .btn {
         width: 100%;
         bottom: 0; }
-  div.referal .referal-relations .big-arrow {
+  .referal .referal-relations .big-arrow {
     top: 90px;
     left: 105px; }
-  div.info .description:after, div.info .description:before {
+  .info .description:after, .info .description:before {
     width: 100%; }
-  div.info .description:after {
+  .info .description:after {
     bottom: -377px; }
-  div.info .description .image {
+  .info .description .image {
     float: none; }
-    div.info .description .image img {
+    .info .description .image img {
       height: auto;
       width: 100%;
       padding-bottom: 20px;
       padding-right: 0; }
-  div.info .ceo-wrapper p {
+  .info .ceo-wrapper p {
     padding-right: 15px; }
-  div.question .form-group {
+  .question .form-group {
     padding: 0 5px !important; }
-  div.feedback .carousel .carousel-inner {
+  .feedback .carousel .carousel-inner {
     height: 440px; }
-  div.feedback .feedback-image-wrapper img {
+  .feedback .feedback-image-wrapper img {
     padding-top: 150px; } }
 
 @media screen and (max-width: 991px) {
@@ -6439,55 +6395,55 @@ div.footer {
     display: block;
     margin-left: auto;
     margin-right: auto; }
-  div.services .wrapper {
+  .services .wrapper {
     font-size: 2rem; }
-    div.services .wrapper .local {
+    .services .wrapper .local {
       left: calc(50% - 70px); }
-    div.services .wrapper .long_distance {
+    .services .wrapper .long_distance {
       left: calc( 50% - 107.5px);
       top: 5%; }
-      div.services .wrapper .long_distance::before, div.services .wrapper .long_distance::after {
+      .services .wrapper .long_distance::before, .services .wrapper .long_distance::after {
         content: "";
         position: absolute;
         height: 5px;
         border-bottom: 1px solid #ff7101;
         top: 6px; }
-      div.services .wrapper .long_distance::before {
+      .services .wrapper .long_distance::before {
         right: 100%;
         width: 5%; }
-      div.services .wrapper .long_distance::after {
+      .services .wrapper .long_distance::after {
         left: 100%;
         width: 5%; }
-    div.services .wrapper .images-container .long_distance-container {
+    .services .wrapper .images-container .long_distance-container {
       padding-top: 50px; }
-  div.couriers {
+  .couriers {
     height: 1150px; }
-    div.couriers .container-fluid {
+    .couriers .container-fluid {
       padding-left: 0;
       padding-right: 0; }
-      div.couriers .container-fluid .form-wrapper {
+      .couriers .container-fluid .form-wrapper {
         margin-top: 20px; }
-        div.couriers .container-fluid .form-wrapper .wrapper .btn {
+        .couriers .container-fluid .form-wrapper .wrapper .btn {
           width: 50%; }
-  div.discount h1 {
+  .discount h1 {
     padding-bottom: 39px; }
-  div.referal {
+  .referal {
     height: 1700px; }
-    div.referal .referal-relations {
+    .referal .referal-relations {
       padding-top: 0;
       display: block; }
-      div.referal .referal-relations .arrow {
+      .referal .referal-relations .arrow {
         padding-top: 0;
         padding-bottom: 130px; }
-        div.referal .referal-relations .arrow img {
+        .referal .referal-relations .arrow img {
           display: none; }
-        div.referal .referal-relations .arrow:nth-of-type(4) {
+        .referal .referal-relations .arrow:nth-of-type(4) {
           padding-top: 0px !important; }
-      div.referal .referal-relations .big-arrow .arrow_heading {
+      .referal .referal-relations .big-arrow .arrow_heading {
         display: none; }
-      div.referal .referal-relations .image {
+      .referal .referal-relations .image {
         position: relative; }
-        div.referal .referal-relations .image:before {
+        .referal .referal-relations .image:before {
           content: '';
           background: url(../images/referal-arrow-down.png) no-repeat;
           position: absolute;
@@ -6495,9 +6451,9 @@ div.footer {
           bottom: -180px;
           height: 150px;
           width: 30px; }
-        div.referal .referal-relations .image:nth-of-type(3)::before {
+        .referal .referal-relations .image:nth-of-type(3)::before {
           bottom: -195px; }
-        div.referal .referal-relations .image:nth-of-type(5)::before {
+        .referal .referal-relations .image:nth-of-type(5)::before {
           content: '';
           width: 100px;
           height: 700px;
@@ -6506,47 +6462,47 @@ div.footer {
           position: absolute;
           left: 60%;
           bottom: 70%; }
-        div.referal .referal-relations .image:nth-of-type(5)::after {
+        .referal .referal-relations .image:nth-of-type(5)::after {
           content: 'NJ LOCAL MOVING GAVE BONUS TO FRANK';
           position: absolute;
           top: 50%; }
-  div.info .description:after {
+  .info .description:after {
     bottom: -399px; }
-  div.info .ceo-wrapper h1 {
+  .info .ceo-wrapper h1 {
     text-align: center; }
-  div.feedback .carousel .carousel-inner {
+  .feedback .carousel .carousel-inner {
     height: 560px; }
-  div.feedback .feedback-image-wrapper {
+  .feedback .feedback-image-wrapper {
     display: none; } }
 
 @media screen and (max-width: 799px) {
-  div.couriers {
+  .couriers {
     height: 1250px; }
-  div.infography .img-wrapper .wrap p {
+  .infography .img-wrapper .wrap p {
     margin-bottom: 30px; }
-  div.referal {
+  .referal {
     height: 1700px; }
-  div.info .description:after {
+  .info .description:after {
     bottom: -499px; }
-  div.info .description .image {
+  .info .description .image {
     float: none;
     padding: 0 15px; }
-    div.info .description .image img {
+    .info .description .image img {
       width: 100%;
       height: auto;
       padding: 15px 0 30px; }
-  div.info .description .content {
+  .info .description .content {
     padding: 0 15px;
     text-align: justify; }
-  div.info .wrap {
+  .info .wrap {
     padding: 0 15px; }
-    div.info .wrap .ceo-wrapper {
+    .info .wrap .ceo-wrapper {
       text-align: justify; }
-  div.feedback .carousel .carousel-inner {
+  .feedback .carousel .carousel-inner {
     height: 510px; }
-    div.feedback .carousel .carousel-inner .col-xs-4 {
+    .feedback .carousel .carousel-inner .col-xs-4 {
       float: left; }
-  div.feedback .feedback-image-wrapper img {
+  .feedback .feedback-image-wrapper img {
     padding-top: 190px; } }
 
 @media screen and (min-width: 647px) and (max-width: 991px) {
@@ -6558,18 +6514,18 @@ div.footer {
 @media screen and (max-width: 640px) {
   .navbar-default {
     height: 120px !important; }
-  div.couriers {
+  .couriers {
     height: 1350px; }
-  div.infography .img-wrapper .wrap p {
+  .infography .img-wrapper .wrap p {
     margin-bottom: 20px !important; }
-  div.discount .timer {
+  .discount .timer {
     zoom: 0.6;
     -moz-transform: scale(0.6); }
-  div.referal {
+  .referal {
     height: 1750px; }
-  div.info .description:after {
+  .info .description:after {
     bottom: -509px; }
-  div.feedback .carousel .carousel-inner {
+  .feedback .carousel .carousel-inner {
     height: 590px; } }
 
 @media screen and (max-width: 480px) {
@@ -6579,32 +6535,32 @@ div.footer {
       margin: 0 auto; }
   .jumbotron {
     padding-top: 136px !important; }
-  div.couriers {
+  .couriers {
     height: 1500px; }
-    div.couriers .form-wrapper .wrapper label {
+    .couriers .form-wrapper .wrapper label {
       font-size: 1rem; }
-  div.discount .timer {
+  .discount .timer {
     width: 620px;
     zoom: 0.5;
     -moz-transform: scale(0.5); }
-  div.discount .btn {
+  .discount .btn {
     font-size: 14px; }
-  div.referal {
+  .referal {
     height: 1900px; }
-  div.info .description:after {
+  .info .description:after {
     bottom: -550px; }
-  div.feedback .carousel .carousel-inner {
+  .feedback .carousel .carousel-inner {
     height: 780px; } }
 
 @media screen and (max-width: 400px) {
   .navbar-default .navbar-brand {
     margin: 0 auto !important;
     min-width: 360px !important; }
-  div.referal {
+  .referal {
     height: 1950px; }
-  div.info .description:after {
+  .info .description:after {
     bottom: -589px; }
-  div.info .ceo-wrapper {
+  .info .ceo-wrapper {
     margin: 0 0 40px; }
-  div.feedback .carousel .carousel-inner {
+  .feedback .carousel .carousel-inner {
     height: 1190px; } }
