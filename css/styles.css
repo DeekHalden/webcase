@@ -5940,7 +5940,7 @@ div.services .wrapper {
     top: -11rem;
     background-color: #fff; }
   div.services .wrapper .local {
-    left: 20%; }
+    left: 35%; }
   div.services .wrapper .long_distance {
     left: 20%; }
   div.services .wrapper .images-container {
@@ -6323,7 +6323,6 @@ div.map-wrapper {
       display: none !important; }
 
 div.footer {
-  display: none;
   width: auto;
   height: 116px;
   color: #fff;
@@ -6334,7 +6333,7 @@ div.footer {
     text-transform: uppercase;
     font-size: 20px; }
   div.footer .images-wrapper {
-    margin-top: -5px; }
+    margin-left: 68px; }
     div.footer .images-wrapper img {
       display: inline;
       padding: 0 11.5px; }
@@ -6358,10 +6357,10 @@ div.footer {
     .navbar-default .navbar-nav .phone-wrapper {
       padding-left: 0; }
   .jumbotron {
-    padding-top: 10rem; }
+    padding-top: 140px !important; }
     .jumbotron h1 {
       font-size: 5rem;
-      color: #666; }
+      color: #ff7101; }
     .jumbotron p {
       font-size: 3rem; }
     .jumbotron button {
@@ -6436,6 +6435,10 @@ div.footer {
   .navbar-default {
     padding: 10px 0 !important;
     height: 150px !important; }
+  .jumbotron a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
   div.services .wrapper {
     font-size: 2rem; }
     div.services .wrapper .local {
@@ -6519,6 +6522,8 @@ div.footer {
 @media screen and (max-width: 799px) {
   div.couriers {
     height: 1250px; }
+  div.infography .img-wrapper .wrap p {
+    margin-bottom: 30px; }
   div.referal {
     height: 1700px; }
   div.info .description:after {
@@ -6545,12 +6550,18 @@ div.footer {
     padding-top: 190px; } }
 
 @media screen and (min-width: 647px) and (max-width: 991px) {
-  .navbar-default .navbar-nav .phone-wrapper {
-    margin: 0 auto; } }
+  .navbar-default {
+    height: 120px; }
+    .navbar-default .navbar-nav .phone-wrapper {
+      margin: 0 auto; } }
 
 @media screen and (max-width: 640px) {
+  .navbar-default {
+    height: 120px !important; }
   div.couriers {
     height: 1350px; }
+  div.infography .img-wrapper .wrap p {
+    margin-bottom: 20px !important; }
   div.discount .timer {
     zoom: 0.6;
     -moz-transform: scale(0.6); }
@@ -6562,8 +6573,12 @@ div.footer {
     height: 590px; } }
 
 @media screen and (max-width: 480px) {
-  .navbar-default .navbar-nav .phone-wrapper {
-    margin: 0 auto; }
+  .navbar-default {
+    height: 155px !important; }
+    .navbar-default .navbar-nav .phone-wrapper {
+      margin: 0 auto; }
+  .jumbotron {
+    padding-top: 136px !important; }
   div.couriers {
     height: 1500px; }
     div.couriers .form-wrapper .wrapper label {
@@ -6588,8 +6603,8 @@ div.footer {
   div.referal {
     height: 1950px; }
   div.info .description:after {
-    bottom: -599px; }
+    bottom: -589px; }
   div.info .ceo-wrapper {
     margin: 0 0 40px; }
   div.feedback .carousel .carousel-inner {
-    height: 1050px; } }
+    height: 1190px; } }

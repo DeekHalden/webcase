@@ -29,10 +29,26 @@ jQuery(function() {
 
     $(document).on('click', 'a', function(event) {
         event.preventDefault();
-
-        $('html, body').animate({
-            scrollTop: $($.attr(this, 'href')).offset().top
-        }, 500);
+        
+        if($(this).parents('#accordion').length) {
+            return;
+        }else {
+            $('html, body').animate({
+                scrollTop: $($.attr(this, 'href')).offset().top - 120
+            }, 500);
+            
+        }
     });
 
+    if($(window).width()<640){
+
+
+        $('.form-item').on('click',function() {
+            $('.navbar').addClass('hidden');
+        })   
+        $('.form-item').on('focusout',function() {
+            $('.navbar').removeClass('hidden');
+        })
+ 
+    }
 });
