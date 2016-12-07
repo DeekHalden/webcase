@@ -5,12 +5,33 @@
       <meta content="width=device-width, initial-scale=1.0" name="viewport">
       <title>Document</title>
       <link href="css/styles.css" rel="stylesheet">
-      <script src="bower_components/jquery/dist/jquery.min.js"></script>
-      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="scripts/jquery.min.js"></script>
+      <script src="scripts/bootstrap.min.js"></script>
       <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
       <script src="scripts/masked_input.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.1/jquery.validate.js"></script>
       <script src="scripts/flipclock.min.js"></script>
+      <style>
+      	body {
+      		font-family: Montserrat, sans-serif;
+      	}
+		.navbar-default {
+			position: fixed;
+			width: 100%;
+			height: 116px;
+			background-color: #1c3051;
+			border: 0;
+			padding: 32px 0;
+			border-radius: 0;
+			border-bottom: 7px solid #ff7101;
+		}
+		.jumbotron {
+			padding: 106px 0 0;
+			background: url(../images/jumbotron.png)no-repeat 100% 100%;
+			background-size: cover;
+		}
+
+      </style>
    </head>
    <body>
       <nav class="navbar navbar-default">
@@ -18,21 +39,21 @@
             <div class="row">
                <div class="navbar-header">
                   <ul class="nav navbar-nav">
-                     <li>
-                        <a class="navbar-brand" href="#"><img alt="logo" class="logo" src="images/logo.png"></a>
+                     <li class="">
+                        <a class="navbar-brand" href="#home"><img alt="logo" class="logo" src="images/logo.png"><p class="logo-text">ng local <br>moving</p></a>
                      </li>
                      <li class="vertical-line"><span>newark</span> <span>new jersey</span> <span>usa</span></li>
                      <li>
                         <a href="#services">services</a>
                      </li>
                      <li>
-                        <a href="#">promotions</a>
+                        <a href="#promotions">promotions</a>
                      </li>
                      <li>
-                        <a href="#">faqs</a>
+                        <a href="#faqs">faqs</a>
                      </li>
                      <li>
-                        <a href="#">reviews</a>
+                        <a href="#reviews">reviews</a>
                      </li>
                      <li>
                         <a href="#about">about us</a>
@@ -45,7 +66,7 @@
             </div>
          </div>
       </nav>
-      <div class="jumbotron fade-into-view">
+      <div class="jumbotron fade-into-view" id="home">
          <div class="container">
             <div class="row">
                <div class="col-xs-12 col-md-6">
@@ -125,7 +146,7 @@
             </div>
          </div>
       </div>
-      <div class="couriers fade-into-view">
+      <div class="couriers fade-into-view" id="promotions">
          <div class="container-fluid">
             <div class="row" style="margin: 0">
                <div class="col-xs-12 col-md-8 col-md-offset-2" style="padding-left:0;padding-right: 0;">
@@ -301,7 +322,7 @@
             </div>
          </div>
          <div class="container">
-            <div class="row">
+            <div class="row wrap">
                <div class="col-xs-12 ceo-wrapper">
                   <img alt="ceo photo" class="col-xs-6 col-sm-3 img-responsive" src="images/ceo.png">
                   <h1 >DMYTRO DYSHKANT, CEO</h1>
@@ -310,7 +331,7 @@
             </div>
          </div>
       </div>
-      <div class="faq fade-into-view">
+      <div class="faq fade-into-view" id="faqs">
          <div class="container">
             <div class="row" style="padding: 0 15px">
                <h1>Frequently Asked Questions</h1>
@@ -409,7 +430,7 @@
          	</div>
          </div>
      
-	<div class="feedback fade-into-view">
+	<div class="feedback fade-into-view" id="reviews">
 		<div class="container">
 			<div class="row">
 				<h1 class="text-center">
@@ -588,10 +609,10 @@
 			</div>
 		</div>
 	</div>
-	<script async defer src="scripts/scrollreveal-helper.js"></script> 
-	<script async defer src="scripts/jquery-plugins-helpers.js"></script> 
-	<script async defer src="scripts/countdown.js"></script> 
-	<script async defer src="scripts/toggle-chevron.js"></script>
+	<script defer async src="scripts/scrollreveal-helper.js"></script> 
+	<script defer async src="scripts/jquery-plugins-helpers.js" ></script> 
+	<script defer async src="scripts/countdown.js"></script> 
+	<script defer async src="scripts/toggle-chevron.js"></script>
     <script src="scripts/map.js"></script>
 	<script async defer
 	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJLGkOamKGubzLyudF9SPkg-pFGNjmQ_Q&callback=initMap"></script>

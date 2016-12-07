@@ -5757,7 +5757,6 @@ button.close {
 
 body {
   width: 100%;
-  font-family: Montserrat, sans-serif;
   font-size: 1em;
   position: static; }
 
@@ -5793,17 +5792,13 @@ body {
   transition: 0.3s ease all; }
 
 .navbar-default {
-  position: fixed;
-  width: 100%;
-  height: 116px;
-  z-index: 2;
-  background-color: #1c3051;
-  border: 0;
-  padding: 32px 0;
-  border-radius: 0;
-  border-bottom: 7px solid #ff7101; }
-  .navbar-default .navbar-nav .logo {
-    margin: -16px 16px 0 0; }
+  z-index: 2; }
+  .navbar-default .navbar-nav .navbar-brand {
+    margin-top: -1px;
+    text-align: center; }
+    .navbar-default .navbar-nav .navbar-brand .logo {
+      float: left;
+      margin: 0; }
   .navbar-default .navbar-nav .vertical-line {
     position: relative; }
     .navbar-default .navbar-nav .vertical-line:before {
@@ -5827,6 +5822,10 @@ body {
     text-transform: uppercase;
     font-size: 1.5em;
     font-weight: 400; }
+    .navbar-default .navbar-nav li .navbar-brand {
+      display: inline; }
+      .navbar-default .navbar-nav li .navbar-brand .logo-text {
+        display: inline; }
     .navbar-default .navbar-nav li a {
       color: #ffffff;
       font-weight: 600;
@@ -5858,10 +5857,7 @@ body {
       cursor: pointer; }
 
 .jumbotron {
-  padding: 106px 0 0;
-  margin-bottom: 0;
-  background: url(../images/jumbotron.png) no-repeat 100% 100%;
-  background-size: cover; }
+  margin-bottom: 0; }
   .jumbotron h1 {
     font-family: Montserrat;
     text-transform: uppercase;
@@ -6321,12 +6317,14 @@ div.map-wrapper {
   padding: 1px; }
   div.map-wrapper #map {
     height: 709px; }
-    div.map-wrapper #map .gmnoprint {
+    div.map-wrapper #map .gmnoprint, div.map-wrapper #map .gm-style-cc {
       display: none; }
-    div.map-wrapper #map a[href="https://maps.google.com/maps?ll=40.744686,-74.192642&z=16&t=m&hl=ru-RU&gl=US&mapclient=apiv3"] {
+    div.map-wrapper #map img[src="https://maps.gstatic.com/mapfiles/api-3/images/google4.png"] {
       display: none !important; }
 
 div.footer {
+  display: none;
+  width: auto;
   height: 116px;
   color: #fff;
   background-color: #1c3051;
@@ -6344,18 +6342,21 @@ div.footer {
     font-size: 14px; }
 
 @media screen and (max-width: 1199px) {
-  .navbar-default {
-    padding: 0;
-    height: 70px; }
-    .navbar-default .navbar-nav {
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-pack: distribute;
-      justify-content: space-around; }
-      .navbar-default .navbar-nav .vertical-line {
-        display: none; }
-      .navbar-default .navbar-nav .phone-wrapper {
-        padding-left: 0; }
+  .navbar-default .navbar-nav {
+    margin: 0;
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .navbar-default .navbar-nav li a {
+      margin: 5px; }
+    .navbar-default .navbar-nav .vertical-line {
+      display: none; }
+    .navbar-default .navbar-nav .phone-wrapper {
+      padding-left: 0; }
   .jumbotron {
     padding-top: 10rem; }
     .jumbotron h1 {
@@ -6432,6 +6433,9 @@ div.footer {
     padding-top: 150px; } }
 
 @media screen and (max-width: 991px) {
+  .navbar-default {
+    padding: 10px 0 !important;
+    height: 150px !important; }
   div.services .wrapper {
     font-size: 2rem; }
     div.services .wrapper .local {
@@ -6529,14 +6533,20 @@ div.footer {
   div.info .description .content {
     padding: 0 15px;
     text-align: justify; }
-  div.info .ceo-wrapper {
-    text-align: justify; }
+  div.info .wrap {
+    padding: 0 15px; }
+    div.info .wrap .ceo-wrapper {
+      text-align: justify; }
   div.feedback .carousel .carousel-inner {
     height: 510px; }
     div.feedback .carousel .carousel-inner .col-xs-4 {
       float: left; }
   div.feedback .feedback-image-wrapper img {
     padding-top: 190px; } }
+
+@media screen and (min-width: 647px) and (max-width: 991px) {
+  .navbar-default .navbar-nav .phone-wrapper {
+    margin: 0 auto; } }
 
 @media screen and (max-width: 640px) {
   div.couriers {
@@ -6552,6 +6562,8 @@ div.footer {
     height: 590px; } }
 
 @media screen and (max-width: 480px) {
+  .navbar-default .navbar-nav .phone-wrapper {
+    margin: 0 auto; }
   div.couriers {
     height: 1500px; }
     div.couriers .form-wrapper .wrapper label {
@@ -6570,6 +6582,9 @@ div.footer {
     height: 780px; } }
 
 @media screen and (max-width: 400px) {
+  .navbar-default .navbar-brand {
+    margin: 0 auto !important;
+    min-width: 360px !important; }
   div.referal {
     height: 1950px; }
   div.info .description:after {
