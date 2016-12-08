@@ -6559,7 +6559,7 @@ body {
   .navbar-default {
     height: 70px !important; } }
 
-@media screen and (min-width: 647px) and (max-width: 991px) {
+@media screen and (min-width: 520px) and (max-width: 991px) {
   .navbar-default .navbar-nav .phone-wrapper {
     margin: 0 auto; } }
 
@@ -6598,7 +6598,7 @@ body {
   .feedback .carousel .carousel-inner {
     height: 780px; }
   .footer {
-    height: 160px; } }
+    height: 165px; } }
 
 @media screen and (max-width: 400px) {
   .navbar-default {
