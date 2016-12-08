@@ -5,12 +5,12 @@
       <meta content="width=device-width, initial-scale=1.0" name="viewport">
       <title>Document</title>
       <link href="css/styles.css" rel="stylesheet">
-      <script src="scripts/jquery.min.js"></script>
-      <script src="scripts/bootstrap.min.js"></script>
-      <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+      <script src="scripts/vendor/jquery.min.js"></script>
+      <script src="scripts/vendor/bootstrap.min.js"></script>
+      <script src="scripts/vendor/scrollreveal.min.js"></script>
       <script src="scripts/masked_input.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.1/jquery.validate.js"></script>
-      <script src="scripts/flipclock.min.js"></script>
+      <script src="scripts/vendor/jquery.validate.js"></script>
+      <script src="scripts/vendor/flipclock.min.js"></script>
       <style>
       	body {
       		font-family: Montserrat, sans-serif;
@@ -43,12 +43,14 @@
 		.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 			color:#fff;
 		}
+		
 		.navbar-brand {
 			display:inline;
 			margin-top:-1px !important;
 			text-align:center !important;
 		}
 		.navbar-brand .logo-text {
+			vertical-align: sub;
 			display:inline;
 			color:#fff;
 		}
@@ -83,17 +85,29 @@
 			background-size: cover;
 			height: 100%;
 		}
+		.consultation {
+			height:307px;
+			font-family: Montserrat Light;
+			position: relative;
+			background-color: #ff7101;
+		}
+		.consultation img.lady {
+			height: 370px;
+			position: absolute;
+			top: -63px;
+		}
 
       </style>
    </head>
    <body>
+   <!-- Navigation bar -->
       <nav class="navbar navbar-default">
          <div class="container">
             <div class="row">
                <div class="navbar-header">
                   <ul class="nav navbar-nav">
-                     <li class="">
-                        <a class="navbar-brand" href="#home"><img alt="logo" class="logo" src="images/logo.png"><p class="logo-text">ng local <br>moving</p></a>
+                     <li class="brand">
+                        <a class="navbar-brand" href="#home"><img alt="logo" class="logo img-responsive" src="images/logo.png"><p class="logo-text">ng local <br>moving</p></a>
                      </li>
                      <li class="vertical-line"><span>newark</span> <span>new jersey</span> <span>usa</span></li>
                      <li>
@@ -119,6 +133,8 @@
             </div>
          </div>
       </nav>
+      <!-- End of navigation bar -->
+      <!-- Jumbotron -->
       <div class="jumbotron fade-into-view" id="home">
          <div class="container">
             <div class="row">
@@ -133,6 +149,7 @@
             </div>
          </div>
       </div>
+      <!-- End of Jumbotron -->
       <div class="consultation fade-into-view">
          <div class="container">
             <div class="row"><img class="lady col-md-pull-6 col-lg-pull-7" src="images/lady.png" alt="employee-woman"></div>
@@ -157,6 +174,7 @@
             </div>
          </div>
       </div>
+      <!-- Services section -->
       <div class="services fade-into-view" id="services">
          <h1 class="text-center">SERVICES</h1>
          <div class="container-fluid wrapper">
@@ -199,10 +217,12 @@
             </div>
          </div>
       </div>
-      <div class="couriers fade-into-view" id="promotions">
+      <!-- End of services section -->
+      <!-- Promotions section -->
+      <div class="promotions fade-into-view" id="promotions">
          <div class="container-fluid">
             <div class="row" style="margin: 0">
-               <div class="col-xs-12 col-md-8 col-md-offset-2" style="padding-left:0;padding-right: 0;">
+               <div class="col-xs-12 col-lg-8 col-lg-offset-2" style="padding-left:0;padding-right: 0;">
                   <div class="col-xs-12 col-md-4 review" id="quote">
                      <h1>Why customers again and again chosen our company services?</h1>
                      <p>Why customers again and again chosen our company services? Why customers again and again chosen our company services? Why customers again and again chosen our company services? Why customers again and again chosen our company services? Why customers again and again chosen our company services? Why customers again and again chosen our company services? Why customers again and again chosen our company services? Why customers again and again chosen our company services?</p>
@@ -261,6 +281,8 @@
             </div>
          </div>
       </div>
+      <!-- End of Promotions section -->
+      <!-- Infography  section-->
       <div class="infography fade-into-view">
          <div class="container-fluid">
             <div class="row">
@@ -300,6 +322,8 @@
             </div>
          </div>
       </div>
+      <!-- End of infography section -->
+      <!-- Discount section -->
       <div class="discount fade-into-view">
          <div class="container">
             <div class="row">
@@ -309,13 +333,15 @@
                      By the end of the offer remains
                   </h1>
                   <div class="wrapper header">
-                     <div class="timer" data-date="December 08, 2016 18:00:00" id="countdown"></div>
+                     <div class="timer" data-date="December 08, 2016 18:00:00" id="countdown"></div> <!-- Date format must be exact as in example Month Day, Year hh:mm:ss -->
                   </div>
                   <a class="btn" href="#quote">Get a free quote</a>
                </div>
             </div>
          </div>
       </div>
+      <!-- End of Discount section -->
+      <!-- Referal system section -->
       <div class="referal fade-into-view">
          <div class="container">
             <div class="row">
@@ -363,6 +389,8 @@
             </div>
          </div>
       </div>
+      <!-- End of Referal system section -->
+      <!-- Information section -->
       <div class="info fade-into-view" id="about">
          <div class="container">
             <h1 class="info_heading">OUR COMPANY</h1>
@@ -377,13 +405,15 @@
          <div class="container">
             <div class="row wrap">
                <div class="col-xs-12 ceo-wrapper">
-                  <img alt="ceo photo" class="col-xs-6 col-sm-3 img-responsive" src="images/ceo.png">
+                  <img alt="ceo photo" class=" img-responsive" src="images/ceo.png">
                   <h1 >DMYTRO DYSHKANT, CEO</h1>
                   <p>Lorem ipsum dolor sit amet, molestie quaerendum ex vis. Per nobis iisque id. Sit placerat atomorum scribentur ea, ex nam omnis minimum accusamus. Ipsum tritani eu vis, usu ad falli vitae atomorum. Ei nam convenire omittantur, per rebum dolorum at. Utinam eripuit sententiae his id. In diam detracto fabellas cum, mei in quas fabellas. Pri partem causae cu, in nam malis soluta disputationi, eirmod debitis pri te. Clita possim sit et, qui cu quod laudem laoreet, usu ex unum periculis. Sea no minim quaestio philosophia, vis ea discere alienum pertinax.</p>
                </div>
             </div>
          </div>
       </div>
+      <!-- End of Information section -->
+      <!-- FAQ's section -->
       <div class="faq fade-into-view" id="faqs">
          <div class="container">
             <div class="row" style="padding: 0 15px">
@@ -482,7 +512,8 @@
          		</div>
          	</div>
          </div>
-     
+     <!-- End of FAQ's section -->
+     <!-- Feedback sections -->
 	<div class="feedback fade-into-view" id="reviews">
 		<div class="container">
 			<div class="row">
@@ -641,25 +672,30 @@
 			</div>
 		</div>
 	</div>
-	<div class="map-wrapper">
+	<!--End of  Feedback section -->
+	<!-- Map section -->
+	<div class="map-wrapper fade-into-view">
 		<div id="map"></div>
 	</div>
-	<div class="footer">
+	<!-- End of Map section -->
+	<!-- Footer -->
+	<div class="footer fade-into-view">
 		<div class="container">
-			<div class="row">
-				<div class="pull-left">
+			<div class="row ">
+				<div class="pull-left col-xs-6 col-md-4">
 					<p class="company_name">&copy; NJ Local moving 2016</p>
 				</div>
-				<span class="images-wrapper">
+				<span class="images-wrapper col-xs-6 col-md-3">
 					<img src="images/pin.png" class="img-responsive" alt="pin">
 					<img src="images/angies.png" class="img-responsive" alt="logo">
 				</span>
-				<div class="pull-right designed-by">
+				<div class="pull-right designed-by col-xs-12 col-md-5">
 					<p>Designed by WebCase</p>
 				</div>
 			</div>
 		</div>
 	</div>
+	<!-- End of Footer -->
 	<script defer async src="scripts/scrollreveal-helper.js"></script> 
 	<script defer async src="scripts/jquery-plugins-helpers.js" ></script> 
 	<script defer async src="scripts/countdown.js"></script> 
